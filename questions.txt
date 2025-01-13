@@ -1,0 +1,4 @@
+Question SCSS (4 pts)
+A partir des codes ci-dessous, à l'aide de BEM et SCSS, refactorisez les déclarations de code concernant les boutons.
+
+Vous définirez des variables pour les paramètres esthétiques (couleurs, espacements) et réduirez au maximum le nombre de déclarations et la longueur du code.
