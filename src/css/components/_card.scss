@@ -1,0 +1,23 @@
+/* https://sass-lang.com/playground/#eJxtkNFqwzAMRd/7FYKW0cLcJaMLw3sp7EOKYzmeWGIFx2Fho/8+pU42BsN+0UXn6kplee5oogDWRNzvav/KLUcN26Zp7mFXc0QXVw0RD/C1AehM9BRUzSlxp+Gx6KcXkXuDSMFrKJ+ykHGp+wkGbgn/OP52qGiQxkHD88IZ++4jjwGVzbPXZJmZ1PBmkD80FHASb8Eg+npfwPweoDiWh7lT/t3lYjkkF9ItOUAjlRro00msZdzPQol7sZyl6yaziVLr/iFPK7nk21ZVlTkhj/Mxb9CZgm1HdPm8kun6Dc5Nbhw= */
+@mixin card($bgColor: $white, $borderColor: $lighter-grey) {
+  margin-bottom: 20px;
+  padding: 15px;
+  border: 1px solid $borderColor;
+  border-radius: 8px;
+  background-color: $bgColor;
+  box-shadow: 0 4px 8px rgb(0 0 0 / 0.1);
+
+  &__content {
+    margin-top: 0;
+    font-size: 18px;
+  }
+
+  &__title {
+    color: $dark-grey;
+    font-size: 14px;
+  }
+}
+
+.card {
+  @include card();
+}

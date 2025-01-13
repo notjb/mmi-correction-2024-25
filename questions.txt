@@ -1,4 +1,13 @@
-Question SCSS (4 pts)
-A partir des codes ci-dessous, à l'aide de BEM et SCSS, refactorisez les déclarations de code concernant les boutons.
+Question SCSS 1 (4 pts)
+A partir des codes ci-dessous, à l'aide de BEM et SCSS, refactorisez les déclarations
+de code concernant les boutons.
 
-Vous définirez des variables pour les paramètres esthétiques (couleurs, espacements) et réduirez au maximum le nombre de déclarations et la longueur du code.
+Vous définirez des variables pour les paramètres esthétiques (couleurs, espacements)
+ et réduirez au maximum le nombre de déclarations et la longueur du code.
+
+
+
+Question SCSS (4pts)
+A partir des codes ci-dessous, à l'aide de BEM et SCSS, refactorisez les déclarations de code concernant les cartes (card) et le formulaire (form). Vous réduirez au maximum la longueur du code.
+
+Utilisez au maximum les fonctionnalités offertes par le pré-processeur en mutualisant les déclarations communes de style dans un mixin.

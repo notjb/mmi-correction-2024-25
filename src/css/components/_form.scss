@@ -1,0 +1,19 @@
+@mixin input($borderColor: $lighter-grey) {
+  width: 100%;
+  margin-bottom: 15px;
+  padding: 8px;
+  border: 1px solid $borderColor;
+  border-radius: 4px;
+}
+
+.input--text,
+.input--email {
+  @include input();
+}
+
+.label {
+  display: block;
+  margin-bottom: 5px;
+  color: $secondary-color;
+  font-size: 14px;
+}
